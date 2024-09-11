@@ -80,7 +80,7 @@ class Grafo:
         while h.tamanho() > 0:
             
             distancia, indeiceDeOndeVem = h.remove_no()
-            print(f'Distancia: {distancia}   indice onde vem: {indeiceDeOndeVem}')
+            print(f'Distancia para chegar: {distancia}   indice onde vem: {indeiceDeOndeVem}')
             
             for i in range(self.vertices):
                 if self.grafo[indeiceDeOndeVem - 1][i] != 0:

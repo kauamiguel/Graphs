@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/kauamiguel/Documents/Faculdade/Grafos/Exemplos/output/quickSort'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _particiona, symObjAddr: 0x0, symBinAddr: 0x100003CF0, symSize: 0x100 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _particiona, symObjAddr: 0x0, symBinAddr: 0x100003CF0, symSize: 0x100 }
+  - { offsetInCU: 0xA1, offset: 0xA1, size: 0x8, addend: 0x0, symName: _quickSort, symObjAddr: 0x100, symBinAddr: 0x100003DF0, symSize: 0x7C }
+  - { offsetInCU: 0xFD, offset: 0xFD, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x17C, symBinAddr: 0x100003E6C, symSize: 0xE8 }
+...
